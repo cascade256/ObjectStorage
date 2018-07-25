@@ -35,7 +35,7 @@ This is a library for working with object storage services, like Amazon AWS S3, 
 ---   
 #### Get An Object
     char* getObjectFromBucket(struct ObjectStore store, const char* objName, int* resultLen, CURL* curl, enum ObjectStoreResult* result);
-   This function fetches the object with the name in `objName` from the given `store` and sets the length of the fetched data to `resultLen` and returns a pointer to the data. The status code is set to `result` and is `OBJ_STORE_OK` on success, `OBJ_STORE_NOT_FOUND` if the object does not exist, and OBJ_STORE_ERROR if some other error occurred. 
+   This function fetches the object with the name in `objName` from the given `store` and sets the length of the fetched data to `resultLen` and returns a pointer to the data. The status code is set to `result` and is `OBJ_STORE_OK` on success, `OBJ_STORE_NOT_FOUND` if the object does not exist, and `OBJ_STORE_ERROR` if some other error occurred. 
    
 ---
 #### Upload Object
