@@ -1,10 +1,10 @@
 # ObjectStorage
 
-This is a library for working with object storage services, like Amazon AWS S3, Digital Ocean Spaces, or Minio. It is written in C and conforms to the ANSI C99 standard for maximum compatability. It uses libCurl to handle making the HTTP requests and libCrypto from OpenSSL to handle the Sha256 hashing.
+This is a library for working with object storage services, like Amazon AWS S3, Digital Ocean Spaces, or Minio. It is written in C and conforms to the ANSI C99 standard for maximum compatibility. It uses libCurl to handle making the HTTP requests and libCrypto from OpenSSL to handle the Sha256 hashing.
 
 ## Usage
 
-`example.c` contains a complete example of how to use the library, and `buildExample.sh` shows how to link in libCurl and libCrypto. The accessID and secret key are just to a test instance of Minio (https://minio.io/), and will have to be changed to your own accessID and secret key.  
+`example.c` contains a complete example of how to use the library, and `buildExample.sh` shows how to link in libCurl and libCrypto. The accessID and secret key are just to a test instance of Minio (https://minio.io/) and will have to be changed to your own accessID and secret key.  
 
 ### Types
 
